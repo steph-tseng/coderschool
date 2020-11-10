@@ -1,0 +1,38 @@
+.kid {
+  font-size: 2em;
+}
+
+p,
+h1 {
+  color: #14132b;
+}
+
+#page-title {
+  color: aquamarine;
+}
+
+#first-para {
+  color: aqua;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
+
+.box {
+  border: 50px solid=black;
+  width: 50px;
+  box-sizing: border-box;
+}

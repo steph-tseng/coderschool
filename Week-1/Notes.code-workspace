@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../Notes/cs_ftw_notes"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Coderschool"
+  }
+}

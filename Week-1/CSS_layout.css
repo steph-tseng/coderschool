@@ -1,0 +1,334 @@
+section {
+  border: 1px solid black;
+  height: 400px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+#challenge1 {
+  justify-content: space-between;
+}
+#challenge1 .right-container {
+  display: flex;
+}
+
+#challenge1 .div2 {
+  margin-right: 5px;
+}
+
+#challenge2 {
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+#challenge2 .div2 {
+  align-self: center;
+}
+
+#challenge2 .div3 {
+  align-self: flex-end;
+}
+
+#challenge3 {
+  justify-content: center;
+  position: relative;
+}
+
+#challenge3 .div1 {
+  z-index: 1;
+  background-color: grey;
+  width: 30vw;
+  height: 30vw;
+}
+
+#challenge3 .div2 {
+  position: absolute;
+  z-index: 2;
+  top: 7vw;
+}
+
+#challenge4 {
+  position: relative;
+}
+
+#challenge4 .div1 {
+  z-index: 1;
+}
+
+#challenge4 .div2 {
+  background-color: gray;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+}
+
+#challenge5 {
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+#challenge5 .div1 {
+  align-self: flex-end;
+}
+
+#challenge5 .div2 {
+  align-self: center;
+}
+
+#challenge5 .div3 {
+  align-self: flex-start;
+}
+
+#challenge6 {
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+}
+
+#challenge6 .div1 {
+  background-color: grey;
+  height: 30vw;
+  width: 60vw;
+}
+
+#challenge6 .div2 {
+  position: absolute;
+  z-index: 1;
+  right: 45.8vw;
+}
+
+#challenge6 .div3 {
+  position: absolute;
+  z-index: 1;
+  bottom: 15.7vw;
+}
+
+#challenge7 {
+  position: relative;
+}
+
+#challenge7 .div1 {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
+
+#challenge7 .div2 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#challenge8 {
+  position: relative;
+}
+
+#challenge8 .div1 {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
+
+#challenge8 .div2 {
+  position: absolute;
+  left: 100px;
+}
+
+#challenge9 .div1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  width: 150px;
+  height: 300px;
+}
+
+#challenge9 .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#challenge10 {
+  justify-content: center;
+  position: relative;
+}
+
+#challenge10 .div1 {
+  display: flex;
+  background-color: grey;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  position: relative;
+}
+
+#challenge10 .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#challenge11 .div1 {
+  display: flex;
+  position: relative;
+  height: 300px;
+  width: 150px;
+  background-color: grey;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#challenge11 .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#challenge11 .div2 {
+  position: absolute;
+  height: 150px;
+  width: 125px;
+}
+
+#challenge11 .div3 {
+  position: absolute;
+  background-color: rgb(193, 205, 209);
+  height: 100px;
+  width: 100px;
+  bottom: 5px;
+  right: 5px;
+}
+
+#challenge12 {
+  display: flex;
+  position: relative;
+}
+
+#challenge12 .div1 {
+  height: 300px;
+  width: 150px;
+  background-color: grey;
+}
+
+#challenge12 .div2 {
+  z-index: 2;
+  height: 150px;
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+#challenge12 .div3 {
+  z-index: 3;
+  background-color: lightgrey;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+#challenge13 {
+  display: flex;
+  position: relative;
+}
+
+#challenge13 .div2 {
+  position: absolute;
+  background-color: grey;
+  top: 50px;
+  left: 50px;
+}
+
+#challenge13 .div3 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#challenge13 .div4 {
+  position: absolute;
+  background-color: grey;
+  top: 150px;
+  left: 150px;
+}
+
+#challenge13 .div5 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+#challenge14 {
+  justify-content: flex-end;
+}
+
+#challenge14 .div1 {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+  justify-content: flex-end;
+  flex-direction: row;
+  position: relative;
+  display: flex;
+}
+
+#challenge14 .div2 {
+  position: absolute;
+  flex-direction: row;
+  bottom: 0;
+}
+
+#challenge14 .text {
+  position: absolute;
+  left: 0;
+}
+
+#challenge15 .container {
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  height: 350px;
+}
+
+#challenge15 .div1 {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
+
+#challenge15 .div4 {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
+
+#challenge15 .column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  margin-bottom: 50px;
+}
+
+#challenge15 .column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 350px;
+  align-content: flex-end;
+}

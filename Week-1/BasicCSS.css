@@ -1,0 +1,97 @@
+/* Applies border box sizing to the root element */
+:root {
+  box-sizing: border-box;
+}
+
+/* Tells all other elements and pseudo-element to inherit their box sizing */
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  margin: 0 20%;
+}
+
+p {
+  color: #2c3e50;
+  font: italic;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+P:first-letter {
+  font-size: 2em;
+  color: #27ae60;
+}
+
+#para1 {
+  color: #2ecc71;
+}
+
+.header {
+  color: #e67e22;
+}
+
+h1 {
+  background-color: linen;
+}
+
+h1:first-of-type {
+  visibility: hidden;
+  display: none;
+}
+
+#assignment2 a:link {
+  color: #27ae60;
+}
+
+#assignment2 a:visited {
+  color: #217243;
+}
+
+#assignment2 a:hover {
+  color: #0bf16b;
+}
+
+#assignment2 a:active {
+  color: #2e9c5c;
+}
+
+#assignment3 {
+  font-size: 50px;
+}
+
+#assignment3 li {
+  font-size: 0.8em;
+}
+
+#blue-box {
+  background-color: rgb(73, 150, 221);
+  width: 80vmin;
+  height: 80vmin;
+  margin-bottom: 50px;
+}
+
+.box {
+  border: 50px solid #e74c3c;
+  padding: 50px;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.content {
+  box-sizing: content-box;
+  border: 50px solid #16a085;
+}
